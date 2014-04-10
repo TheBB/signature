@@ -5,7 +5,7 @@ import random
 
 e = open("/home/efonn/repos/signature/signature.txt", "w")
 
-e.write("Eivind Fonn - http://www.aligulac.com/ - HG J 59\nSeminar für Angewandte Mathematik\nRämistrasse 101, CH-8092 Zürich\n\n")
+e.write("Eivind Fonn - http://www.aligulac.com/ - HG J 59<br>Seminar für Angewandte Mathematik<br>Rämistrasse 101, CH-8092 Zürich<br><br>")
 
 f = open("/home/efonn/repos/signature/signatures.txt")
 q = f.readlines()
