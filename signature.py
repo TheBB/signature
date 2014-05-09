@@ -8,7 +8,7 @@ homedir = os.getenv('HOME')
 
 e = open(homedir + "/repos/signature/signature.txt", "w")
 
-e.write("Eivind Fonn - http://www.aligulac.com/<br>SINTEF Anvendt Matematikk<br>Strindveien 4, 7034 Trondheim<br><br>")
+e.write("Eivind Fonn - http://www.aligulac.com/<br>SINTEF IKT Anvendt Matematikk<br>Strindveien 4, 7034 Trondheim<br><br>")
 
 f = open(homedir + "/repos/signature/signatures.txt")
 q = f.readlines()
